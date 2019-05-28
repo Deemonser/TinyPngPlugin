@@ -1,0 +1,70 @@
+<idea-plugin>
+  <id>cn.deemons.cn.deemons.tinypng.plugin</id>
+  <name>TinyPNG</name>
+  <version>2.1</version>
+  <vendor email="deemonsch@gmail.com" url="https://deemons.cn">Deemons</vendor>
+
+  <description><![CDATA[
+    <h1>TinyPNG</h1>
+      <br/>
+      <p>
+      <b><a href="https://github.com/Deemonser/TinyPngPlugin">GitHub</a></b>
+      </p>
+      <p>
+      <b><a href="https://github.com/Deemonser/TinyPngPlugin">https://github.com/Deemonser/TinyPngPlugin</a></b>
+      </p>
+      <br/>
+      <p><b>A plugin for compression picture by TinyPNG API.</b></p>
+      <br/>
+      <p><b>No API Key now, no free use</b></p>
+      <br/>
+      <p><b>利用 TinyPNG 的 API ，开发的图片压缩工具。</b></p>
+      <p><b>现在无需 API Key，免费无限制使用</b></p>
+      <p><b>如果有问题，欢迎大家到 GitHub 上留言。</b></p>
+      <br/>
+      <p><b>Use： Tools --> TinyPNG </b></p>
+      <br/>
+      <img src="https://raw.githubusercontent.com/Deemonser/TinyPngPlugin/master/img/Snipaste_2019-05-28_16-17-55.png"  alt="Use" />
+      <p><b>更多详细信息，请查看 GitHub</b> <a href="https://github.com/Deemonser/TinyPngPlugin">https://github.com/Deemonser/TinyPngPlugin</a></p>
+
+    ]]>
+  </description>
+
+  <change-notes><![CDATA[
+      <ul>
+        <li>v2.1 fix timeOut</li>
+        <li>v2.0 去除 API Key，免费无限制使用</li>
+        <li>v1.6 fix bug</li>
+        <li>v1.5 fix bug</li>
+        <li>v1.4 edit doc</li>
+        <li>v1.3 fix some bug</li>
+        <li>v1.2 add info</li>
+        <li>v1.1 fix bug</li>
+        <li>v1.0 init</li>
+      </ul>
+
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="TingPngPlugin.TingPngAction" class="cn.deemons.tinypng.TingPngAction" text="TinyPNG"
+            description="a plugin for compression picture by TinyPNG API">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
