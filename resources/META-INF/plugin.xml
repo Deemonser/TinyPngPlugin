@@ -1,7 +1,7 @@
 <idea-plugin>
-  <id>cn.deemons.cn.deemons.tinypng.plugin</id>
+  <id>cn.deemons.tinypng.plugin</id>
   <name>TinyPNG</name>
-  <version>2.1</version>
+  <version>2.3</version>
   <vendor email="deemonsch@gmail.com" url="https://deemons.cn">Deemons</vendor>
 
   <description><![CDATA[
@@ -32,7 +32,7 @@
 
   <change-notes><![CDATA[
       <ul>
-        <li>v2.1 fix timeOut</li>
+        <li>v2.3 fix timeOut</li>
         <li>v2.0 去除 API Key，免费无限制使用</li>
         <li>v1.6 fix bug</li>
         <li>v1.5 fix bug</li>
