@@ -23,7 +23,7 @@
 
 在顶部 Tools 面板中找到 **TinyPNG** 
 
-![use](https://github.com/Deemonser/TinyPngPlugin/tree/master/imgSnipaste_2019-05-28_16-17-55.png)
+![use](https://raw.githubusercontent.com/Deemonser/TinyPngPlugin/master/img/Snipaste_2019-05-28_16-17-55.png)
 
 选择图片，或目录
 
